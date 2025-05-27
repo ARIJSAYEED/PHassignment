@@ -4,12 +4,15 @@
     font-family: "Poppins", sans-serif;
     ;
 }
+
 body {
     background-image: linear-gradient(25deg, #B8E7FA, #E6E6FA);
 }
+
 #header-text h1 {
     font-weight: 800px;
 }
+
 #header {
     border-bottom: 2px solid rgb(201, 201, 201);
     padding: 20px 100px;
@@ -18,9 +21,11 @@ body {
     align-items: center;
     background-color: #E6EDF9;
 }
+
 #header-text span {
     color: #FFA500;
 }
+
 .btn button {
     color: rgb(0, 0, 0);
     background-image: linear-gradient(to right, #FFA500, #FFD447);
@@ -31,9 +36,12 @@ body {
     border: none;
     box-shadow: 0px 5px 5px rgb(184, 184, 184);
 }
+
 .btn button:hover {
     background-image: linear-gradient(to left, #FFA500, #FFD447);
+    cursor: pointer;
 }
+
 #first-section {
     background-color: #E6EDF9;
     text-align: center;
@@ -41,35 +49,43 @@ body {
     padding: 40px 60px;
     border-radius: 16px;
 }
+
 #first-section img {
     margin-bottom: 32px;
 }
+
 #first-section h1 {
     font-size: 48px;
     font-weight: bolder;
     margin-bottom: 24px;
 }
+
 #first-section p {
     padding: 0px 160px;
     font-size: large;
     margin-bottom: 32px;
 }
+
 #second-section {
     padding: 0px 100px;
 }
+
 #second-section-part-one {
     text-align: center;
     margin-bottom: 48px;
 }
+
 #second-section-part-one h1 {
     font-size: 32px;
     font-weight: bolder;
     margin-bottom: 24px;
 }
+
 #second-section-part-one p {
     font-size: large;
     padding: 0px 160px;
 }
+
 #second-section-part-two {
     background-color: #E6EDF9;
     margin-top: 20px;
@@ -79,35 +95,42 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
 #second-section-part-two-text h1 {
     margin-bottom: 24px;
 
 }
+
 #second-section-part-two-text p {
     margin-bottom: 32px;
 
 }
+
 #third-section {
     margin: 100px 200px;
 
 }
+
 #third-section-part-one {
     text-align: center;
     margin-bottom: 48px;
 
 }
+
 #third-section-part-one h1 {
     font-size: 32px;
     font-weight: bolder;
     margin-bottom: 24px;
 
 }
+
 #third-section-part-one p {
     font-family: "Azeret Mono", monospace;
     font-size: 20px;
     font-weight: 300;
     line-height: 25px;
 }
+
 #third-section-part-two {
     display: flex;
     border: 2px solid rgba(0, 0, 0, 0.459);
@@ -115,28 +138,35 @@ body {
     text-align: center;
     justify-content: center;
 }
-#third-section-part-two iframe{
+
+#third-section-part-two iframe {
     border-radius: 16px;
     margin: 40px;
 }
+
 #fourth-section {
     margin: 100px;
 }
+
 #fourth-section-part-one {
     text-align: center;
     margin-bottom: 48px;
 }
+
 #fourth-section-part-one h1 {
     margin-bottom: 24px;
 }
+
 #fourth-section-part-one p {
     font-size: large;
 }
+
 #fourth-section-part-two {
     display: flex;
     justify-content: space-around;
 
 }
+
 #fourth-section-part-two .box {
     align-items: center;
     width: 304px;
@@ -145,14 +175,17 @@ body {
     border-radius: 16px;
     box-shadow: 0px 0px 20px rgb(163, 163, 163);
 }
-#fourth-section-part-two .box a{
+
+#fourth-section-part-two .box a {
     color: black;
     font-weight: bold;
 }
-#fourth-section-part-two .box .content{
+
+#fourth-section-part-two .box .content {
     margin-bottom: 24px;
     font-weight: bold;
 }
+
 #footer {
     background-color: #E6EDF9;
     padding: 32px 150px;
@@ -160,19 +193,23 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-#footer-text h1{
+
+#footer-text h1 {
     font-family: "Azeret Mono", monospace;
     font-size: 30px;
     font-weight: 400;
 }
-#footer-icon{
+
+#footer-icon {
     text-align: center;
 }
-#footer-icon ul{
+
+#footer-icon ul {
     display: inline;
     list-style-type: none;
 }
-#footer-icon ul li{
+
+#footer-icon ul li {
     display: inline;
     padding-right: 10px;
 }
