@@ -212,4 +212,5 @@ body {
 #footer-icon ul li {
     display: inline;
     padding-right: 10px;
+    cursor: pointer;
 }
