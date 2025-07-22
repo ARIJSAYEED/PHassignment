@@ -163,30 +163,34 @@ body {
     font-size: large;
 }
 
-#fourth-section-part-two {
-    display: flex;
-    justify-content: space-around;
+.fourth-section-part-two{
+    margin: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+}
+.card *{
+    margin-bottom: 24px;
+}
+.card h1{
+    font-size: 24px;
+    font-weight: 800;
+}
+.card a{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
 
 }
-
-#fourth-section-part-two .box {
-    align-items: center;
-    width: 304px;
+.card-1 , .card-2 , .card-3{
+    align-items: flex-start;
+    padding: 40px;
     background-image: linear-gradient(#E6EDF9, #9DE5FF);
     padding: 40px;
     border-radius: 16px;
     box-shadow: 0px 0px 20px rgb(163, 163, 163);
 }
 
-#fourth-section-part-two .box a {
-    color: black;
-    font-weight: bold;
-}
-
-#fourth-section-part-two .box .content {
-    margin-bottom: 24px;
-    font-weight: bold;
-}
 
 #footer {
     background-color: #E6EDF9;
